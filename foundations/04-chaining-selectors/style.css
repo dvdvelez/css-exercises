@@ -1,4 +1,9 @@
-/* The following showcases the chaining of selectors with unique and shared attributes*/
+/* The following showcases the chaining of selectors with unique and shared attributes.
+
+Notice, the class selectors avatar, proportioned, and distorted are NOT separated by a comma or a blank space.
+
+This means that elements in an HTML file must have either both avatar AND proportioned or avatar AND distorted classes to have either of the attributes below.
+*/
 
 .avatar.proportioned{
     width: 300px;
