@@ -8,14 +8,24 @@ body{
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/*Placed .small-para class selector AFTER the .para selector, taking advantage of the rule order since both selectors have the same specificity. */
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
+  
+/*Another solution would be keeping the small-para selector in its original place and just chaining selectors, giving this rule a higher specificity:
 
-.para {
-  font-size: 22px;
-}
+p.small-para {
+  font-size: 14px;
+  font-weight: 800;
+  }
+*/
 
 .confirm {
   background: green;
@@ -40,3 +50,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
