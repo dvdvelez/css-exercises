@@ -1,4 +1,8 @@
-/*The following is to further expand on different class combinations*/
+/*The following is to further expand on different class combinations.
+
+Notice that in line 16 the first and second class selectors are separated by a comma.
+This is a very important distinction between using a comma and using a blank space to separate both selectors.
+Using a blank space would make it possible to apply descendant combinators as you will see in css exercise 05-descendant-combinators.*/
 
 .first-element{
     background-color: black;
