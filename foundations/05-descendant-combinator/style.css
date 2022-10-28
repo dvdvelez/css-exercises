@@ -2,7 +2,7 @@
 
 Notice that the type selectors div and p are separated by a space.
 
-If they were separated by a comma then every single div and p element in the HTML file would have the attributes below applied to them.  We DO NOT WANT THIS in this example.
+If they were separated by a comma then every single div and p element in the associated HTML file would have the attributes below applied to them.  We DO NOT WANT THIS in this example.
 
 What we want is for only the p elements nested (child) inside the div element (parent) to have the attributes below. Any  p element that is NOT nested (not a descendant) within a div element WILL NOT have the attributes below.  This is what we want!
 */
