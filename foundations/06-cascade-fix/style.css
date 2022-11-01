@@ -27,6 +27,9 @@ p.small-para {
   }
 */
 
+
+/*To make the confirm-button green with white letters simply rewrite the .confirm class selector as #confirm-button ID selector since an ID selector has a higher specificity than a class selector*/
+
 #confirm-button {
   background: green;
   color: white;
@@ -39,7 +42,10 @@ p.small-para {
   font-size: 20px;
 }
 
-.child {
+
+/*To make the last sentence smaller and bold, simply add a .text class selector to the .child selector as below:*/
+
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -48,6 +54,5 @@ p.small-para {
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-weight: 100;
-}
+  font-weight: 100
 
